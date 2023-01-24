@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-size: cover;
+  background-position: fixed;
+  background-repeat: none;
+  background-image: url("../public/assets/fusion-medical-animation-rnr8D3FNUNY-unsplash.jpg");
+}
