@@ -36,12 +36,73 @@
     transform: rotate(360deg);
   }
 }
+
 body {
-  background-size: cover; 
-  background-position: fixed;
-  background-repeat: none; 
-  
-  background-image: url("/home/davy/Downloads/fusion-medical-animation-rnr8D3FNUNY-unsplash.jpg");
+  /* background-size: cover; 
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
+  background-image: url("/home/davy/Downloads/fusion-medical-animation-rnr8D3FNUNY-unsplash.jpg"); */
+  background-color: beige; 
 
 }
+.nav {
+  /* background-color: tomato;  */
+  height: 8vh; 
+  padding: 30px; 
+  text-align: right;
+  margin-top: 10px; 
+  
+
+}
+/* .nav a {
+  color: tomato; 
+  padding: 10px; 
+  font-size: 1.4rem; 
+  text-decoration: none; 
+  margin-left: 50px; 
+
+} */
+/* .nav a:hover {
+  background-color: black;
+  border-radius: 10px; 
+  font-size: 1.4rem; 
+  color: white; 
+
+} */
+.nav a.active {
+  background-color: tomato; 
+  color: white; 
+  border-radius: 10px; 
+}
+.nav a {
+  position: relative;
+  color: tomato;
+  text-decoration: none;
+  padding: 10px; 
+  font-size: 1.4rem; 
+  margin-left: 50px; 
+}
+
+.nav a:hover {
+  color: black;
+}
+
+.nav a::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+}
+
+.nav a:hover::before {
+  transform: scaleX(1);
+}
+
+
 

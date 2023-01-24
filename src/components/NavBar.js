@@ -1,14 +1,16 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
+
 
 function NavBar() {
   return (
     <div className='nav'>
-        <a href="home">Home</a>
-        <a href="#">CountriesList</a>
-        <a href="#">Login</a>
-        <a href="#">Logout</a>
+        <NavLink to = "/">Home</NavLink>
+        <NavLink to = "./countriesList">CountriesList</NavLink>
+        <NavLink to = "./login">LogIn</NavLink>
+        <NavLink to = "./logout">LogOut</NavLink>
     </div>
   )
 }
 
-export default NavBar
+export default NavBar; 
