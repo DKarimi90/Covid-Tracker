@@ -26,7 +26,7 @@ function Home() {
           </div>
         </div>
         <div className='third'>
-          <img src ="images/spread.png" />
+          <img src ="images/spread1.png" />
         </div>
         <div className='fourth'>
           {/* <h3>Take the Following Steps to Self-Protect</h3> */}

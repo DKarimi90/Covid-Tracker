@@ -44,6 +44,7 @@ body {
   background-image: url("/"); */
   /* background-color: beige;  */
 
+
 }
 .nav {
   /* background-color: tomato;  */
@@ -54,21 +55,6 @@ body {
   
 
 }
-/* .nav a {
-  color: tomato; 
-  padding: 10px; 
-  font-size: 1.4rem; 
-  text-decoration: none; 
-  margin-left: 50px; 
-
-} */
-/* .nav a:hover {
-  background-color: black;
-  border-radius: 10px; 
-  font-size: 1.4rem; 
-  color: white; 
-
-} */
 .nav a.active {
   background-color: tomato; 
   color: white; 
@@ -137,7 +123,7 @@ img {
 .right{ 
   position: absolute; 
   top: 25%; 
-  left: 80%; 
+  left: 81%; 
 }
 h3 {
   color: black; 
@@ -146,5 +132,9 @@ h3 {
 }
 .right h4 {
   text-decoration: underline; 
+}
+p {
+  color: rgb(12, 118, 167); 
+  font-size: 1.5rem; 
 }
 
