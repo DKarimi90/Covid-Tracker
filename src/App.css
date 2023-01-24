@@ -41,8 +41,8 @@ body {
   /* background-size: cover; 
   background-attachment: fixed;
   background-repeat: no-repeat; 
-  background-image: url("/home/davy/Downloads/fusion-medical-animation-rnr8D3FNUNY-unsplash.jpg"); */
-  background-color: beige; 
+  background-image: url("/"); */
+  /* background-color: beige;  */
 
 }
 .nav {
@@ -110,28 +110,42 @@ body {
   margin: 20px; 
 }
 .first {
-  height: 40vh; 
+  height: 70vh; 
   width: 100%; 
-  background-color: rgb(240, 240, 224);
   border-radius: 20px; 
 }
 .second {
-  height: 40vh; 
+  height: 70vh; 
   width: 100%; 
-  background-color: rgb(240, 240, 224);
   border-radius: 20px; 
 }
 .third {
-  height: 40vh; 
+  height: 70vh; 
   width: 100%; 
   background-color: rgb(240, 240, 224);
   border-radius: 20px; 
 }
 .fourth{
-  height: 40vh; 
+  height: 70vh; 
   width: 100%; 
-  background-color: rgb(240, 240, 224);
   border-radius: 20px; 
 }
-
+img {
+  width: 800px; 
+  height: 680px; 
+  border-radius: 20px; 
+}
+.right{ 
+  position: absolute; 
+  top: 25%; 
+  left: 80%; 
+}
+h3 {
+  color: black; 
+  font-size: 1.7rem; 
+  text-decoration: underline;
+}
+.right h4 {
+  text-decoration: underline; 
+}
 
