@@ -25,7 +25,9 @@ function Home() {
             <p>Muscles and Joint Pains</p>
           </div>
         </div>
-        <div className='third'></div>
+        <div className='third'>
+          <img src ="images/spread.png" />
+        </div>
         <div className='fourth'>
           {/* <h3>Take the Following Steps to Self-Protect</h3> */}
           {/* <img src = "images/prevention.png" /> */}
