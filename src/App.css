@@ -36,10 +36,92 @@
     transform: rotate(360deg);
   }
 }
-
-body {
-  background-size: cover;
-  background-position: fixed;
-  background-repeat: none;
-  background-image: url("../public/assets/fusion-medical-animation-rnr8D3FNUNY-unsplash.jpg");
+.nav {
+  /* background-color: tomato;  */
+  height: 8vh;
+  padding: 30px;
+  text-align: right;
+  margin-top: 10px;
+}
+.nav a.active {
+  background-color: tomato;
+  color: white;
+  border-radius: 10px;
+}
+.nav a {
+  position: relative;
+  color: tomato;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 1.4rem;
+  margin-left: 50px;
+}
+.nav a:hover {
+  color: black;
+}
+.nav a::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+}
+.nav a:hover::before {
+  transform: scaleX(1);
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
+  grid-gap: 20px;
+  margin: 20px;
+}
+.first {
+  height: 70vh;
+  width: 100%;
+  border-radius: 20px;
+}
+.second {
+  height: 70vh;
+  width: 100%;
+  border-radius: 20px;
+}
+.third {
+  height: 70vh;
+  width: 100%;
+  border-radius: 20px;
+}
+.fourth{
+  height: 70vh;
+  width: 100%;
+  border-radius: 20px;
+}
+img {
+  width: 800px;
+  height: 650px;
+  border-radius: 20px;
+}
+.right{
+  position: absolute;
+  top: 25%;
+  left: 81%;
+}
+h3 {
+  color: black;
+  font-size: 1.7rem;
+  text-decoration: underline;
+}
+.right h4 {
+  text-decoration: underline;
+}
+p {
+  color: rgb(12, 118, 167);
+  font-size: 1.5rem;
+}
+video {
+  width: 50%;
 }

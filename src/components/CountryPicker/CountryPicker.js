@@ -1,9 +1,9 @@
 import React from 'react'
 
-function LogOut() {
+function CountryPicker() {
     return (
         <div></div>
     )
 }
 
-export default LogOut
+export default CountryPicker
