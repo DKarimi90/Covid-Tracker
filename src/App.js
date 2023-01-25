@@ -1,25 +1,50 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Home from './views/Home';
+import NavBar from './components/NavBar';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import CountriesList from './components/CountriesList';
+import LogIn from './components/LogIn'
+import LogOut from './components/LogOut'
+import Map from './components/Map';
+
+function App() {
+  return (
+      <div className="App">
+        <Router>
+          <div className='links'>
+          <NavBar />
+          </div>
+         <Routes>
+           <Route path = "/" element = {<Home />}/>
+           <Route path = "/CountriesList" element = {<CountriesList />}/>
+           <Route path = "/LogIn" element = {<LogIn />}/>
+           <Route path = "/LogOut" element = {<LogOut />}/>
+           <Route path = "/Map" element = {<Map />}/>
+         </Routes>
+        </Router>
+      </div>
+  );
+}
+export default App;
+
+/*import './App.css';
+import Home from "./views/Home"
+import NavBar from "./components/NavBar"
+import CountriesList from './components/CountriesList';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar/>
+      <Home/>
+      <CountriesList/>
+      
+
+      
     </div>
   );
 }
 
-export default App;
+export default App;*/
