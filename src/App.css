@@ -144,6 +144,27 @@ p {
 .contacts h4 {
   font-style: italic;
 }
+table {
+  margin-left: 25%; 
+  width: 50%; 
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th, .data-table td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  color: black; 
+  font-size: 1.5rem; 
+}
+
+.data-table th {
+  background-color: #f2f2f2;
+}
 
 
 

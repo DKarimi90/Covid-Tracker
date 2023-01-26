@@ -7,6 +7,7 @@ import CountriesList from './components/CountriesList';
 import LogIn from './components/LogIn'
 import LogOut from './components/LogOut'
 import Footer from './components/Footer';
+import CountryData from './components/CountryData';
 
 
 
@@ -20,6 +21,7 @@ function App() {
          <Routes>
            <Route path = "/" element = {<Home />}/>
            <Route path = "/CountriesList" element = {<CountriesList />}/>
+           <Route path = "/CountryData" element = {<CountryData />}/>
            <Route path = "/LogIn" element = {<LogIn />}/>
            <Route path = "/LogOut" element = {<LogOut />}/>
          </Routes>
