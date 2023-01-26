@@ -10,8 +10,8 @@ In this project, we were required to create a React application that helps track
 ## Project SetUp 
 IN order to use this project, it is required that you install node to your local environment. Running the project will require you to clone it to your local environment. Next, run the command `npm install` to ensure that you have all the required dependencies. Lastly, run `npm start` to launch the application onto the browser. 
 ## Minimum Viable Product (MIV)
-We were required to meet five core deliverables in this project as enumerated below. 
-Users should: 
+We were required to meet five core deliverables in this project as enumerated below. <br>
+Users should:<br>
 . see general information about COVID-19 on the landing page. For instance, the symptoms, how the virus spreads and prevention measures<br> 
 . view a list of countries with COVID-19<br>
 . display a summary of day one cases for each country (summarized in table)<br>
