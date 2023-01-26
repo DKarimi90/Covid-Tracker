@@ -7,7 +7,7 @@ import CountriesList from './components/CountriesList';
 import LogIn from './components/LogIn'
 import LogOut from './components/LogOut'
 import Map from './components/Map';
-
+import MainMapp from './components/MainMapp'
 function App() {
   return (
       <div className="App">
@@ -20,7 +20,7 @@ function App() {
            <Route path = "/CountriesList" element = {<CountriesList />}/>
            <Route path = "/LogIn" element = {<LogIn />}/>
            <Route path = "/LogOut" element = {<LogOut />}/>
-           <Route path = "/Map" element = {<Map />}/>
+           <Route path =  "/Map" element = {<MainMapp />}/>
          </Routes>
         </Router>
       </div>
