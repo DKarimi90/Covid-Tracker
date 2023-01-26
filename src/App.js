@@ -8,6 +8,8 @@ import LogIn from './components/LogIn'
 import LogOut from './components/LogOut'
 import Map from './components/Map';
 import MainMapp from './components/MainMapp'
+import CountryData from './components/CountryData';
+
 function App() {
   return (
       <div className="App">
@@ -21,6 +23,7 @@ function App() {
            <Route path = "/LogIn" element = {<LogIn />}/>
            <Route path = "/LogOut" element = {<LogOut />}/>
            <Route path =  "/Map" element = {<MainMapp />}/>
+           <Route path = "/CountryData" element = {<CountryData />}/>
          </Routes>
         </Router>
       </div>

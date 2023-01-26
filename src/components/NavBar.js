@@ -6,9 +6,11 @@ function NavBar() {
     <div className='nav'>
         <NavLink to = "/">Home</NavLink>
         <NavLink to = "./countriesList">Countries List</NavLink>
+        <NavLink to = "./countryData">Country Data</NavLink>
+        <NavLink to = "./map">Map</NavLink>
         <NavLink to = "./login">LogIn</NavLink>
         <NavLink to = "./logout">LogOut</NavLink>
-        <NavLink to = "./map">Map</NavLink>
+        
     </div>
   )
 }
