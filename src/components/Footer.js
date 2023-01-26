@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <div>
-        <h4>&copy; 2020</h4>
+        <h4>&copy; 2023</h4>
         <div className='contacts'>
             <h4>Contact Info:</h4>
             cynthia.jepkosgei@student.moringaschoo.com
