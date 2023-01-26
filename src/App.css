@@ -101,8 +101,8 @@
   border-radius: 20px;
 }
 img {
-  width: 800px;
-  height: 650px;
+  width: 700px;
+  height: 600px;
   border-radius: 20px;
 }
 .right{
@@ -124,4 +124,11 @@ p {
 }
 video {
   width: 50%;
+}
+.footer {
+  background-color: tomato;  
+  height: 8vh;
+  padding: 30px;
+  text-align: right;
+  margin-top: 10px;
 }

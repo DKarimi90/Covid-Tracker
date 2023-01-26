@@ -10,6 +10,7 @@
     "axios": "^1.2.4",
     "react": "^18.2.0",
     "react-chartjs-2": "^5.2.0",
+    "react-country-dropdown": "^1.0.4",
     "react-countup": "^6.4.0",
     "react-dom": "^18.2.0",
     "react-router": "^6.7.0",
@@ -51,7 +52,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/DKarimi90/Covid-Tracker/issues"
-  },
-  "homepage": "https://github.com/DKarimi90/Covid-Tracker#readme",
-  "devDependencies": {}
+  }
 }
