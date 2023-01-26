@@ -6,6 +6,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import CountriesList from './components/CountriesList';
 import LogIn from './components/LogIn'
 import LogOut from './components/LogOut'
+import Footer from './components/Footer';
 
 
 
@@ -22,6 +23,9 @@ function App() {
            <Route path = "/LogIn" element = {<LogIn />}/>
            <Route path = "/LogOut" element = {<LogOut />}/>
          </Routes>
+         <div className = "footer">
+          <Footer />
+      </div >
         </Router>
       </div>
 

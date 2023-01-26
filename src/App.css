@@ -38,13 +38,7 @@
 }
 
 body {
-  /* background-size: cover; 
-  background-attachment: fixed;
-  background-repeat: no-repeat; 
-  background-image: url("/"); */
-  /* background-color: beige;  */
-
-
+  height: 100%; 
 }
 .nav {
   /* background-color: tomato;  */
@@ -116,7 +110,7 @@ body {
   border-radius: 20px; 
 }
 img {
-  width: 800px; 
+  width: 820px; 
   height: 680px; 
   border-radius: 20px; 
 }
@@ -136,5 +130,24 @@ h3 {
 p {
   color: rgb(12, 118, 167); 
   font-size: 1.5rem; 
+}
+.footer {
+  height: 12vh; 
+  width: 100%; 
+
+  padding: 20px; 
+  margin-bottom: 0;  
+  top: 100%; 
+  left: 0; 
+  position: relative;  
+}
+.contacts h4 {
+  font-style: italic;
+}
+
+
+
+video {
+  width: 50%; 
 }
 
