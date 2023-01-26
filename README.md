@@ -17,10 +17,10 @@ Users should:
 . display a summary of day one cases for each country (summarized in table)<br>
 . visualize at least one of the COVID-19 metrics in a graph 
 ## Authors 
-        *Cynthia Jepkosgei*
-        *Mark Mutuku*
-        *Ian Munene*
-        *David Mwai*
+        Cynthia Jepkosgei
+        Mark Mutuku
+        Ian Munene
+        David Mwai
 ## License 
 
 MIT License
