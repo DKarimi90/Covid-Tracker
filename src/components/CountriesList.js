@@ -51,8 +51,8 @@ function CountriesList() {
 
   return (
     <div>
-      <h3>list of countries</h3>
-      <input className="search" type="text" value={searchValue} onChange={handleSearch} placeholder="Search for a country" />
+      <h3>List of Countries Hit by COVID-19</h3>
+      <input className="search" type="text" value={searchValue} onChange={handleSearch} placeholder="&#128269; Search for a country" />
       <ul>
         {countryList}
       </ul>

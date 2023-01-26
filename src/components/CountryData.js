@@ -4,7 +4,7 @@ function CountryData() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("https://api.covid19api.com/total/dayone/country/USA")
+    fetch("https://api.covid19api.com/total/dayone/country/Kenya")
     .then(resp => resp.json())
     .then(data => setData(data))
   }, []);
