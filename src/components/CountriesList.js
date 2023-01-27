@@ -14,6 +14,7 @@ function CovidData({handleCountryChange}) {
   const [recoveredCases, setRecoveredCases] = useState("");
   const [userInput, setUserInput] = useState("");
   
+  
   //fetches all country data
   useEffect(() => {
     fetch("https://disease.sh/v3/covid-19/countries")
