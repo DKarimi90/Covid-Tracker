@@ -6,10 +6,10 @@ function Home() {
       <h1>Let's Control Corona Virus</h1>
       <div className ="container">
         <div className='first'>
-        <img src = "/assets/fusion-medical-animation-rnr8D3FNUNY-unsplash.jpg" alt= "cough" />
+        <img src = "/images/fusion-medical-animation-rnr8D3FNUNY-unsplash.jpg" alt= "cough" />
         </div>
         <div className = 'second'>
-          <img src = "/assets/2.jpg" alt="covid" />
+          <img src = "/images/2.jpg" alt="covid" />
           <div className='right'>
             <h3>Covid-19 Symptoms</h3>
             <p>Shortness of Breath</p>
@@ -24,12 +24,12 @@ function Home() {
           </div>
         </div>
         <div className='third'>
-          <img src ="/assets/spread.png" alt= "spread" />
+          <img src ="/images/spread.png" alt= "spread" />
         </div>
         <div className='fourth'>
           {/* <h3>Take the Following Steps to Self-Protect</h3> */}
           {/* <img src = "images/prevention.png" /> */}
-          <img src = "/assets/prevention1.png" alt="prevention"/>
+          <img src = "/images/prevention1.png" alt="prevention"/>
         </div>
       </div>
     </div>
