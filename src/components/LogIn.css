@@ -19,7 +19,7 @@ button  {
   #login--form input[type="text"],
   input[type="password"] {
     width: 80%;
-    margin: 8px 0;
+    margin: 8px 10px;
     padding: 12px 20px;
     display: inline-block;
     border: 2px solid #0e131b;

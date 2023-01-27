@@ -3,14 +3,17 @@ import {useState, useEffect } from 'react';
 
 function CountryData() {
         const [data, setData] = useState([]);
+        const [Country, setCountry] = useState("")
         useEffect(() => {
-          fetch(`https://api.covid19api.com/dayone/country/south-africa`)
+          fetch(`https://api.covid19api.com/total/dayone/country/USA`)
           .then(resp => resp.json())
           .then(data => {
             const dayOneData = data.filter(item => item.Date.split('T')[0] === '2020-01-22')
             setData(dayOneData)
+           
           })
         }, []);
+        console.log(Country);
         return (
           <div>
               <table className="data-table">

@@ -42,8 +42,13 @@ function CovidData({handleCountryChange}) {
     setRecoveredCases(todayRecovered);
   };
 
-  const handleSelect = (e) =>{
-    setData(e.target.value)
+  const handleSelect = () =>{
+    fetch(`https://disease.sh/v3/covid-19/countries/${country}`)
+      .then((res) => res.json())
+      .then((data) => {
+        setData(data);
+        
+      });
   }
   const handleSearch = (e) => {
     setUserInput(e.target.value);
