@@ -5,7 +5,7 @@ function Footer() {
     <div>
         <h4>&copy; 2023</h4>
         <div className='contacts'>
-            <h4>Contact Info:</h4>
+            <h4>Developers' Info:</h4>
             cynthia.jepkosgei@student.moringaschoo.com
             mark.mutuku@student.moringaschool.com
             ian.munene@student.moringaschool.com
