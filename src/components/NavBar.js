@@ -1,12 +1,15 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function NavBar(){
     return (
         <div className="nav">
-            <a href="#">Home</a>
-            <a href="#">CountriesList</a>
-            <a href="#">LogIn</a>
-            <a href="#">LogOut</a>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="./countrieslist">Countries List</NavLink>
+            <NavLink to="./countriesdata">Countries Data</NavLink>
+            <NavLink to = "./map">Map</NavLink>
+            <NavLink to="./login">LogIn</NavLink>
+            <NavLink to="./logout">LogOut</NavLink>
 
         </div>
     )
