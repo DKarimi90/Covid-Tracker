@@ -9,19 +9,8 @@ function Home() {
         <img src = "/images/covid.jpg" />
         </div>
         <div className = 'second'>
-          <img src = "/images/first.jpg" />
-          <div className='right'>
-            <h3>Covid-19 Symptoms</h3>
-            <p>Shortness of Breath</p>
-            <p>Respiratory Symptoms</p>
-            <p>Fever</p>
-            <p>Dry Cough</p>
-            <p>Tiredness</p><br />
-            <h4>Others may Include:</h4>
-            <p>Nasal Congestion</p>
-            <p>Running Nose</p>
-            <p>Muscles and Joint Pains</p>
-          </div>
+         
+          <img src="/images/second.png"/>
         </div>
         <div className='third'>
           <img src ="images/spread1.png" />
