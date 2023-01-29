@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Phase 2 Group Project 
+## Goals 
+. Assessing individual technical skills learnt so far as regards the use of different technologies among them HTML, CSS, JavaScript, and React<br>
+. Building on teamwork and collaborative skills<br>
+. Practicing the use of API within a react-app<br>
+. Incorporating client-side routing<br>
+. Complying with Moringa's academic requirements 
+## Project Description 
+In this project, we were required to create a React application that helps track real-time covid data updates. This was meant to help inform travelers about COVID-19 status from across the world. 
+## Project SetUp 
+IN order to use this project, it is required that you install node to your local environment. Running the project will require you to clone it to your local environment. Next, run the command `npm install` to ensure that you have all the required dependencies. Lastly, run `npm start` to launch the application onto the browser. 
+## Minimum Viable Product (MIV)
+We were required to meet five core deliverables in this project as enumerated below. <br>
+Users should:<br>
+. see general information about COVID-19 on the landing page. For instance, the symptoms, how the virus spreads and prevention measures<br> 
+. view a list of countries with COVID-19<br>
+. display a summary of day one cases for each country (summarized in table)<br>
+. visualize at least one of the COVID-19 metrics in a graph 
+## Authors 
+        Cynthia Jepkosgei
+        Mark Mutuku
+        Ian Munene
+        David Mwai
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Status 
+Maintained, and currently in development 
+## License 
 
-## Available Scripts
+MIT License
 
-In the project directory, you can run:
+Copyright (c) Year 2023
 
-### `npm start`
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Resources 
+https://reactjs.org/tutorial/tutorial.html<br>
+https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_interactivity_events_state<br>
+https://disease.sh/v3/covid-19/countries<br>
+You tube 
