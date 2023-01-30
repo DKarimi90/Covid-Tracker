@@ -1,18 +1,13 @@
 import React from 'react'
 
 function Footer() {
-  return (
-    <div>
-        <h4>&copy; 2023</h4>
-        <div className='contacts'>
-            <h4>Developers' Info:</h4>
-            cynthia.jepkosgei@student.moringaschoo.com
-            mark.mutuku@student.moringaschool.com
-            ian.munene@student.moringaschool.com
-            david.mwai@student.moringaschool.com
+    return (
+        <div className='footer'>
+            <strong>© copyright 2023. Covid-19 Tracker</strong>
+         <div><small>mark.mutuku@student.moringaschool.com,ian.munene@student.moringaschool.com,
+            david.mwai@student.moringaschool.com, cynthia.jepkosgei@student.moringaschool.com </small></div>
         </div>
-    </div>
-  )
+    )
 }
 
 export default Footer
