@@ -8,8 +8,8 @@ import {
 import InfoBox from "./Data"
 import {  prettyPrintStat } from "./Util";
 import numeral from "numeral";
-import Map from "./Map";
 import "leaflet/dist/leaflet.css";
+import Map from "./Map";
 
 const App = () => {
   const [country, setInputCountry] = useState("worldwide");
