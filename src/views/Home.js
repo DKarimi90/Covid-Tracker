@@ -2,7 +2,7 @@ import React from 'react'
 function Home() {
   return (
     <div className='Home'>
-      <h1>Let's Control Corona Virus</h1>
+      <h1>Let's Control Corona</h1>
       <div className ="container">
         <div className='first'>
         <img src = "/images/covid.jpg" alt = "Covid-Thumbnail" />
