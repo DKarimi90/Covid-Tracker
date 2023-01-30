@@ -18,3 +18,8 @@ function Map({ countries, casesType, center, zoom }) {
   );
 }
 export default Map;
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> main
