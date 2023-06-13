@@ -8,8 +8,6 @@ function NavBar(){
             <NavLink to="./countrieslist">Countries List</NavLink>
             <NavLink to="./countriesdata">Countries Data</NavLink>
             <NavLink to = "./map">Map</NavLink>
-            <NavLink to="./login">LogIn</NavLink>
-            <NavLink to="./logout">LogOut</NavLink>
 
         </div>
     )
